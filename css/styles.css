@@ -67,3 +67,21 @@
   text-align: center;
   margin: 40px 0px;
 }
+#about{
+  display: flex;
+  flex-direction: column;
+  box-sizing: 20px;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+#pic{
+  height: auto;
+  width: 100%;
+}
+#intro{
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  padding: 10px;
+}
+
