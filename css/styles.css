@@ -21,3 +21,14 @@
   font-size: 1.1rem;
   font-weight: bold;
 }
+.navbar ul li a{
+  text-decoration: none;
+  color: white;
+  padding: 8px 25px;
+  transition: all .5s ease;
+}
+.navbar ul li a:hover{
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 10px;
+}
