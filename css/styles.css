@@ -70,21 +70,25 @@
 #about{
   display: flex;
   flex-direction: column;
-  box-sizing: 20px;
+  box-sizing: border-box;
   padding: 20px;
   margin-bottom: 50px;
 }
 #pic{
-  height: auto;
-  width: 100%;
+  display: flex;
+}
+#pic img{
+  width: 400px;
+  height: 400px;
 }
 #intro{
   display: flex;
   flex-direction: column;
-  text-align: justify;
+  text-align: center;
   padding: 10px;
 }
-#intro h2{
-  font-size: 2rem;
+#about h2{
+  text-align: 2rem;
   margin-bottom: 20px;
 }
+
