@@ -32,3 +32,17 @@
   color: black;
   box-shadow: 0 0 10px;
 }
+#home{
+  display: flex;
+  flex-direction: column;
+}
+#home::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-image: url('../images/bg1.jpg'); 
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+}
