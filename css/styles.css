@@ -73,8 +73,9 @@ html{
 #about{
   display: flex;
   flex-direction: column;
-  box-sizing: border-box;
-  align-items: center;
+  background-color: rgb(0, 0, 0, 0.5);
+  color: white;
+  text-align: center;
   padding: 20px;
   margin-bottom: 50px;
 }
