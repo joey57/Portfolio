@@ -67,6 +67,7 @@ html{
 .heading{
   font-family: century;
   font-size: 3rem;
+  text-align: center;
   align-items: center;
   margin: 40px 0px;
 }
